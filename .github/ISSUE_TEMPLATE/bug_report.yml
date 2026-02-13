@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible defect in the project.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide enough detail to reproduce and verify the fix."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and Nmap version
+      placeholder: "Windows 11, Python 3.12.2, nmap 7.95"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact commands and inputs
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output/logs
+      render: shell

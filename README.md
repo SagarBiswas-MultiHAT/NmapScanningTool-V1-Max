@@ -4,7 +4,7 @@ A secure, production-ready CLI wrapper that makes common Nmap scan workflows fas
 
 <div align="right">
 
-[![CI](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V2/actions/workflows/ci.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V2/actions/workflows/ci.yml)
+[![CI](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-Max/actions/workflows/ci.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-Max/actions/workflows/ci.yml)
 &nbsp;
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 &nbsp;
@@ -41,7 +41,7 @@ This project is an interactive and scriptable front-end for Nmap. It helps secur
 ┃ ⇒ https://www.kali.org/docs/troubleshooting/common-minimum-setup/
 ┃
 ┗━(Run: “touch ~/.hushlogin” to hide this message)
-┌──(BlackHAT㉿HP-SAGAR)-[/mnt/h/updatedReposV2/NmapScanningTool-V2]
+┌──(BlackHAT㉿HP-SAGAR)-[/mnt/h/updatedReposV2/NmapScanningTool-V1-Max]
 └─$ python3 -m http.server 8000
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
@@ -51,7 +51,7 @@ When testing OS detection locally, a simple HTTP server was started using python
 <b>Terminal 2</b>
 
 ```
-┌──(.venv)(BlackHAT㉿HP-SAGAR)-[/mnt/h/updatedReposV2/NmapScanningTool-V2]
+┌──(.venv)(BlackHAT㉿HP-SAGAR)-[/mnt/h/updatedReposV2/NmapScanningTool-V1-Max]
 └─$ python main.py
  _   _                         ____                        _
 | \ | |_ __ ___   __ _ _ __   / ___|  ___ __ _ _ __  _ __ (_)_ __   __ _ 
@@ -119,8 +119,8 @@ Nmap done: 1 IP address (1 host up) scanned in 2.33 seconds
 ### Installation
 
 ```bash
-git clone https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V2.git
-cd NmapScanningTool-V2
+git clone https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V1-Max.git
+cd NmapScanningTool-V1-Max
 python -m venv .venv
 # Linux/macOS
 source .venv/bin/activate
@@ -241,7 +241,7 @@ What it does: runs a custom UDP-focused scan with your supplied flags.
 ## Project Structure
 
 ```text
-NmapScanningTool-V2/
+NmapScanningTool-V1-Max/
 |-- .github/
 |   |-- workflows/ci.yml              # Lint, test, build, dependency audit
 |   |-- ISSUE_TEMPLATE/               # Bug and feature request templates

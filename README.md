@@ -2,10 +2,17 @@
 
 A secure, production-ready CLI wrapper that makes common Nmap scan workflows faster, safer, and easier to run.
 
+<div align="right">
+
 [![CI](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V2/actions/workflows/ci.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/NmapScanningTool-V2/actions/workflows/ci.yml)
+&nbsp;
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+&nbsp;
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+&nbsp;
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](CHANGELOG.md)
+
+</div>
 
 ## What This Project Is
 
